@@ -1,0 +1,65 @@
+package operators1;
+
+/**
+ *
+ * @author ToprakUnal
+ */
+public class Operators1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //Using "+" with string.
+        String firstString= "Hello";
+        String secondString= " there!";
+        String thirdString= firstString + secondString;
+        System.out.println(thirdString);
+        //----------------------------------
+        
+        
+       //The unary operators
+       int result=0;
+       result++;
+       System.out.println(result);
+       //1
+       result--; //result= - result
+       System.out.println(result);
+       
+       
+       //pre-post difference
+       int i=3;
+       System.out.println(i++);
+       //print 3
+       System.out.println(i);
+       // print 4
+       System.out.println(++i);
+       //print 5
+       
+       
+       //for Boolean
+       boolean success= false;
+       System.out.println(success);
+       //False
+       System.out.println(!success);
+       //True
+       //----------------------------------
+       
+       
+       //The conditional operators
+       int val1=1;
+       int val2=2;
+       if(val1==1 && val2==3)
+           System.out.println(val1);
+       if (val1==1 || val2==3)
+           System.out.println(val2);
+       else
+       System.out.println("No one true.");
+       
+       
+       //instanceof- check javatutorial conditional operators
+       // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html
+       
+    }
+    
+}
