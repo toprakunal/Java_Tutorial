@@ -1,0 +1,43 @@
+package javaapplication7;
+
+/**
+ *
+ * @author ToprakUnal
+ */
+public class JavaApplication7 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int a=1;
+        // TODO code application logic here
+         int[] anArray;
+        anArray= new int[2];
+        //Assing values
+        anArray[0]=0;
+        anArray[1]=100;
+        
+        //access array
+        System.out.println("Element 1 at index 0= "+anArray[0]);
+        System.out.println("Element 2 at index 1= "+anArray[1]);
+       
+        // Shortcut (Create,İnitialize)
+        int[]anArray1= {0,1,3};
+        System.out.println("Element 2 at index 1= "+anArray1[1]);
+        
+        //Multidimensional Array
+        String[][] names={{"Ms.","Mr."},{"Jones","Clark"}};
+        System.out.println(names[0][0]+names[1][0]);
+        
+        //Coppying arrays
+        char[] copyFrom={'a','b','c','a','f','f','e','i','n'};
+        char[] copyTo= new char[7];
+        System.arraycopy(copyFrom,2,copyTo,0,7);
+        System.out.println(new String(copyTo));
+    }
+        
+        
+    
+    
+}
