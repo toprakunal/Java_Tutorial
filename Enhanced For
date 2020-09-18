@@ -1,0 +1,21 @@
+// Following code example is taken from Oracle JavaTutorial.
+package enchanced.pkgfor;
+
+/**
+ *
+ * @author ToprakUnal
+ */
+public class EnchancedFor {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+         int[] numbers = 
+             {1,2,3,4,5,6,7,8,9,10};
+         for (int item : numbers) {
+             System.out.println("Count is: " + item);
+         }
+    }
+    
+}
